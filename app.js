@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const port = 8080;
 
-app.get('/', (req, res) => res.send('This is demonstartes manual review approvle stage'));
+app.get('/', (req, res) => res.send('This demo manual review approval stage'));
 
 app.listen(port);
 console.log(`App running on http://localhost:${port}`);
